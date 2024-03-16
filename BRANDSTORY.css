@@ -1,0 +1,170 @@
+.navbar{
+    padding: 0;
+}
+.navbar_settings{
+    background-color: #e3e2de;;
+}
+.navbar_contents{
+    font-size: 16px;
+    margin-left: 18px;
+}
+.nav-item :hover{
+    color: whitesmoke;
+    background-color: rgb(60, 102, 60);
+    border-radius: 4px;
+}
+.nav_position{
+    display: flex;
+    justify-content: center;
+}
+.logo_img{
+    padding: 12px;
+}
+.logo_posotion{
+    position: relative;
+    left: 20vw;
+}
+.img-fluid{
+    width: 300px;
+}
+.font_settings{
+    padding-left: 80px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: "Bitter", serif;
+    font-size: 32px;
+}
+.backgroud_settings{
+    background: #e3e2de;
+    padding-bottom: 30px;
+}
+.card_img{
+    display: flex;
+    justify-content: space-around;
+}
+.figure-caption{
+    padding: 15px 0px;
+}
+.box_option{
+    text-decoration: none;
+    color: black;
+    background-color: #f1f0ed;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 8px;
+    font-family: "Bitter", serif;
+}
+.bottom_background{
+    height: 760px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around
+}
+.brandstory{
+    height: 360px;
+    width: 340px;
+    position: relative;
+    top: 20%;
+}
+.text_info{
+    color: #e3e2de;
+    font-size: 20px;
+    position: relative;
+    top: 20%;
+    right: 8%;
+}
+.ment_info{
+    padding-bottom: 7%;
+}
+.bottom_text{
+    font-family: "Bitter", serif;
+    font-size: 34px;
+    color: #f1f0ed;
+    text-align: center;
+}
+.box_settings{
+    border: 2px solid #f1f0ed;
+    padding: 4px 4px;
+}
+.box_settings :hover{
+    background-color: rgb(60, 102, 60);
+}
+.bottom_button{
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: "Bitter", serif;
+    font-size: 34px;
+    color: #f1f0ed;
+}
+.footer_setting{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    background-color: #e3e2de;
+}
+.footer_header{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.footer_middle{
+    font-size: 25px;
+}
+.footer_etc{
+    font-size: 14px;
+}
+@media (max-width:992px){
+    .logo_img{
+        padding: 8px 0px;
+    }
+    .navbar_contents{
+        margin-left: 0px;
+        padding-left: 8px;
+    }
+    .brandstory{
+        display: none;
+    }
+    .text_info{
+        text-align: center;
+    }
+}
+@media (max-width:600px){
+    .font_settings{
+        text-align: center;
+        padding: 30px 0px;
+    }
+    .card_img{
+        display: block;
+    }
+    .img-fluid{
+        width: 200px;
+    }
+    .img_position{
+        display: grid;
+        justify-content: center;
+    }
+    .bottom_text{
+        font-size: 24px;
+    }
+    .footer_setting{
+        display: block;
+    }
+    .second_box{
+        padding-top: 20px;
+    }
+    .footer_header{
+        padding-bottom: 0px;
+    }
+    .bottom_background{
+        height: 480px;
+    }
+    .brandstory{
+        display: none;
+    }
+    .text_info{
+        text-align: center;
+    }
+    .ment_info{
+        font-size: 14px;
+    }
+}

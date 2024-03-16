@@ -66,6 +66,7 @@
     width: 340px;
     position: relative;
     top: 20%;
+    border-radius: 50px;
 }
 .text_info{
     color: #e3e2de;
